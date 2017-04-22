@@ -1,0 +1,22 @@
+{
+  "name": "vahanalytics",
+  "version": "0.0.0",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "body-parser": "^1.17.1",
+    "cors": "latest",
+    "express": "^4.10.6",
+    "express-domain-middleware": "^0.1.0",
+    "express-jwt": "latest",
+    "express-winston": "^1.4.2",
+    "fs": "0.0.2",
+    "moment": "^2.18.1",
+    "node-schedule": "^1.2.1",
+    "nodemailer": "^3.1.8",
+    "pg": "^6.1.5",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}
